@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Parkinsans", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 60px;
+}
+
+header {
+    font-size: 1.25em;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color: #31655c;
+    color: white;
+}
+
+header img {
+    float: left; 
+    margin-left: 20px;
+    max-height: 50px;
+}
+
+nav {
+    background-color: #31655c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px #0000001a;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #81b5ab;
+    transform: scale(1.1);
+    border-radius: 5%;
+    color: #3a635c; 
+}
+
+#video{
+    padding-bottom: 25%;
+    position: relative;
+}
+#video > iframe{
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a49c94;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #e3e6e4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-color: white;
+    width: 80%; 
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+.content img {
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#listaD {
+    list-style: none;
+    margin: 20px auto;
+    max-width: 90%;
+    padding: 0;
+    text-align: center;
+}
+
+#listaD > li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #008080;
+    margin-bottom: 10px;
+}
+
+#listaD ul {
+    list-style: none;
+    padding-left: 20px; 
+    margin: 10px 0;
+}
+
+#listaD ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+#listaD ul li ul li {
+    font-size: 1rem;
+    color: #333;
+}
+
+#listaD ul li ul li::before {
+    content: "•"; 
+    color: #008080;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left; 
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #005959;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 32%;
+    border-radius: 5px;
+}
